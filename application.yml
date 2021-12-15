@@ -6,7 +6,8 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
-    
+server:
+  port: 9296    
     
 microservice:
   payment-service:
